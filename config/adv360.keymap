@@ -10,7 +10,7 @@
 
 // Optional: Overwrite default behavior properties
 &uc {
-  default-mode = <UC_MODE_MACOS>;  // Default to Linux input system
+  default-mode = <UC_MODE_WIN_ALT>;  // Default to Linux input system
 };
 
 / {
