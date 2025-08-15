@@ -10,7 +10,7 @@
 
 // Optional: Overwrite default behavior properties
 &uc {
-  default-mode = UC_MODE_MACOS;  // Default to Linux input system
+  default-mode = <UC_MODE_MACOS>;  // Default to Linux input system
 };
 
 / {
@@ -56,7 +56,7 @@
       display-name = "Fn";
       bindings = <
         &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &tog 1                                           &mo 3               &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12
-        &trans &trans &trans &trans &trans &trans  &none                                           &kp C_VOL_UP        &trans &trans &trans &trans  &trans  &trans
+        &trans &trans &trans &trans &trans &trans  &none                                           &kp C_VOL_UP        &trans &uc UC_DE_UE &trans &trans  &trans  &trans
         &trans &trans &trans &trans &trans &trans  &none        &trans &trans &trans &trans        &kp C_VOLUME_DOWN   &trans &trans &trans &trans  &trans  &trans
         &trans &trans &trans &trans &trans &trans                      &trans &trans                                   &trans &trans &trans &trans  &trans  &trans
         &trans &trans &trans &trans &trans               &trans &trans &trans &trans &trans &trans                            &trans &trans &trans  &trans  &trans
